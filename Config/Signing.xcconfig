@@ -1,0 +1,9 @@
+// Shared signing defaults. Safe to commit.
+//
+// To run on your own iPhone, copy Signing.local.xcconfig.example to
+// Signing.local.xcconfig (git-ignored) and fill in your Team ID and bundle ID prefix.
+
+BUNDLE_ID_PREFIX = com.example
+DEVELOPMENT_TEAM =
+
+#include? "Signing.local.xcconfig"

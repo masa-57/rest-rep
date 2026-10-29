@@ -1,4 +1,21 @@
+# Xcode user state
 xcuserdata/
 *.xcuserstate
-.DS_Store
+*.xcscmblueprint
+*.xccheckout
+
+# Build output
 DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Local signing (see Config/Signing.local.xcconfig.example)
+Config/Signing.local.xcconfig
+
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json
